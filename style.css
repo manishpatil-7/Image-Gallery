@@ -1,0 +1,14 @@
+.gallery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.btn-filter {
+  margin: 5px;
+}
